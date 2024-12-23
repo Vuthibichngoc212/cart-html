@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: url("../images/bg-login.png") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.login-form {
+  min-width: 300px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 60px 24px 34px 24px;
+  border: 1px solid #ccc;
+  border-radius: 45px;
+  margin-right: 50px;
+  z-index: 10;
+}
+
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group input {
+  width: 280px;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.input-group input:focus,
+.input-group input:hover {
+  outline: none;
+  border-color: black;
+}
+
+button {
+  margin-top: 5px;
+  width: 100%;
+  padding: 14px;
+  background-color: #d7daac;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b8bc95;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.links a {
+  color: #0980d3;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.horizontal-lines {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.horizontal-lines .line {
+  width: 40%;
+  height: 2px;
+  background-color: #eab179;
+}
